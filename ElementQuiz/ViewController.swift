@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ElementQuiz
 //
-//  Created by VDAB Cursist on 14/12/16.
-//  Copyright © 2016 knetter. All rights reserved.
+//  Created by Kenneth Debruyn on 14/12/16.
+//  Copyright © 2016 kN3TT3R. All rights reserved.
 //
 
 import UIKit
