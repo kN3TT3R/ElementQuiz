@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // MARK: - IBOutlet
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var answerLabel: UILabel!
     
+    // MARK: - Global Variables & Constants
+    let elementList = ["Carbon", "Gold", "Chlorine", "Sodium"]
+    var currentElementIndex = 0
     
+    // MARK: - Overridden Functions
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
     //MARK: - IBActions
     @IBAction func gotoNextElement(_ sender: UIButton) {
         
@@ -24,17 +36,7 @@ class ViewController: UIViewController {
         
     }
     
+    // MARK: Homemade Functions
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
